@@ -24,30 +24,34 @@ class FriendListViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     func createFriends() {
-        //["Jason", "Eugene", "George", "Mike", "John"]
         let jason = Friend()
         jason.name = "Jason"
         jason.phone = "703-455-9876"
         jason.birthday = "January 4th"
+        jason.pic = UIImage.init(named: "Green_Lantern_(Ryan_Reynolds)")!
+
         self.friends.append(jason)
         
         let eugene = Friend()
         eugene.name = "Eugene"
         eugene.phone = "703-425-0076"
         eugene.birthday = "September 11th"
+        eugene.pic = UIImage.init(named: "4693444-6164752601-ben_a")!
         self.friends.append(eugene)
         
         let george = Friend()
         george.name = "George"
         george.phone = "703-423-1176"
         george.birthday = "March 4th"
+        george.pic = UIImage.init(named: "lead_960")!
         self.friends.append(george)
         
         let mike = Friend()
         mike.name = "Mike"
         mike.phone = "703-625-8016"
         mike.birthday = "February 9th"
-        self.friends.append(eugene)
+        mike.pic = UIImage.init(named: "The-Joker-Suicide-Squad-Batman-Comic")!
+        self.friends.append(mike)
 
 
     }

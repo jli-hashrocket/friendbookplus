@@ -23,6 +23,7 @@ class FriendDetailViewController: UIViewController {
         self.nameLabel.text = self.friend.name
         self.phoneLabel.text = self.friend.phone
         self.birthdayLabel.text = self.friend.birthday
+        self.pictureImageView.image = self.friend.pic
     }
 
 }
